@@ -1,0 +1,17 @@
+// use this file exclusively for global styling
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// custom styling
+body {
+    background-color: lightgrey;
+}
+.shell {
+    background-color: whitesmoke;
+    width: 7in;
+    height: auto;
+    border: 2px gray solid;
+    border-radius: .125in;
+    padding: .125in;
+}
